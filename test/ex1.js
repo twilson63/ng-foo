@@ -14,3 +14,10 @@ test('index.html should equal fixture', function(t) {
   t.equals(appjs, appjs_fixture)
   t.end()
 })
+
+test('main.html should equal fixture', function(t) {
+  var appjs_fixture = fs.readFileSync(__dirname + '/fixtures/main.html', 'utf-8')
+  var appjs = fs.readFileSync('./templates/main.html', 'utf-8')
+  t.equals(appjs, appjs_fixture)
+  t.end()
+})
