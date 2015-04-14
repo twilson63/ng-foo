@@ -1,0 +1,17 @@
+{
+  "name": "ng-foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "w3 --pushstate",
+    "test": "tap test"
+  },
+  "keywords": [],
+  "author": "Tom",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^0.7.1",
+    "w3": "^0.6.0"
+  }
+}
