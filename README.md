@@ -6,7 +6,7 @@
 npm install
 ```
 
-`` html
+``` html
 <!doctype html>
 <html>
   <head>
@@ -23,7 +23,6 @@ npm install
 </html>
 ```
 
-`` js
+``` js
 angular.module('App', [])
-``
-`
+```
