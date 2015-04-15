@@ -1,0 +1,7 @@
+<div class="container">
+  <h2>{{thing.title}}</h2>
+  <p>{{thing.description}}</p>
+  <a class="button" ui-sref="edit({ id: thing._id })">Edit</a>
+  <button class="button button-primary" ng-click="complete(thing)">Completed</button>
+  <a class="button" ui-sref="index">Back to the List</a>
+</div>                                      

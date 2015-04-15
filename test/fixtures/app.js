@@ -16,4 +16,14 @@ angular.module('App', ['ui.router'])
         templateUrl: '/templates/index.html',
         controller: 'IndexController'
       })
+      .state('add', {
+        url: '/add',
+        templateUrl:'/templates/add.html',
+        controller: 'AddController'
+      })
+      .state('show', {
+        url: '/show/:id',
+        templateUrl: '/templates/show.html',
+        controller: 'ShowController'
+      })
   })
