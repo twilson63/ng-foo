@@ -6,4 +6,14 @@ angular.module('App', ['ui.router'])
         url: '/',
         templateUrl: '/templates/main.html'
       })
+      .state('register', {
+        url: '/register', 
+        templateUrl: '/templates/register.html',
+        controller: 'RegisterController'
+      })
+      .state('index', {
+        url: '/index',
+        templateUrl: '/templates/index.html',
+        controller: 'IndexController'
+      })
   })

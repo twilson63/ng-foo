@@ -21,3 +21,10 @@ test('main.html should equal fixture', function(t) {
   t.equals(appjs, appjs_fixture)
   t.end()
 })
+
+test('register.js should equal fixture', function(t) {
+  var appjs_fixture = fs.readFileSync(__dirname + '/fixtures/register.js', 'utf-8')
+  var appjs = fs.readFileSync('./controllers/register.js', 'utf-8')
+  t.equals(appjs, appjs_fixture)
+  t.end()
+})

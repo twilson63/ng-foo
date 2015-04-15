@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Register</h2>
+  <form ng-submit="register(user)">
+    <fieldset>
+      <label>Username</label>
+      <input class="u-full-width" type="text" ng-model="user.name">
+    </fieldset>
+    <fieldset>
+      <label>Email</label>
+      <input class="u-full-width" type="email" ng-model="user.email">
+    </fieldset>
+    <fieldset>
+      <label>Password</label>
+      <input class="u-full-width" type="password" ng-model="user.password">
+    </fieldset>
+    <button class="button-primary u-pull-right">Register</button>
+  </form>
+</div>
